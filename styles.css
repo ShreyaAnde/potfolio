@@ -179,14 +179,14 @@ nav {
 }
 
 .header__image img {
-  max-width: 450px;
+  max-width: 300px;
   margin-inline: auto;
   border-radius: 25rem;
 }
 
 .header__image::after {
   position: absolute;
-  content: "MICHAEL";
+  content: "SHREYA";
   letter-spacing: 1.5rem;
   opacity: 0.5;
   right: 1rem;
@@ -270,12 +270,14 @@ nav {
   margin-top: 2rem;
   display: grid;
   gap: 1rem;
+  text-align: center;
 }
 
 .portfolio__card {
   overflow: hidden;
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px 5px;
 }
 
 .portfolio__card img {
@@ -330,8 +332,10 @@ nav {
 }
 
 .contact__socials a {
-  padding: 7px 10px;
-  font-size: 1.5rem;
+  /* padding: 7px 10px;
+  font-size: 1.5rem; */
+  padding: 10px 12px;
+  font-size: 16px;
   color: var(--white);
   background: rgba(255, 255, 255, 0.2);
   border-radius: 100%;
@@ -407,7 +411,7 @@ nav {
   }
 
   .header__container {
-    padding-top: 5rem;
+    padding-top: 0rem;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
   }
@@ -417,7 +421,7 @@ nav {
   }
 
   .header__image img {
-    margin-inline-start: unset;
+    /* margin-inline-start: unset; */
   }
 
   .header__content {
@@ -426,7 +430,7 @@ nav {
   }
 
   .header__content h1 {
-    font-size: 6rem;
+    font-size: 5.5rem;
     line-height: 6rem;
     text-align: left;
   }
@@ -451,12 +455,12 @@ nav {
   }
 
   .portfolio__container :is(.section__header, .section__description) {
-    text-align: left;
-    margin-inline-start: unset;
+    /* text-align: left;
+    margin-inline-start: unset; */
   }
 
   .portfolio__grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .portfolio__banner {
